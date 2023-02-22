@@ -10,7 +10,7 @@ When top100 is called, the top100 list is returned.
 with more time, I would have replaced the sorts on insertion with a simple shift to insert the ip at the correct location.
 
 ### Time Complexity of Approach 1
-The time complexity of this approach is O(nlogn) for each request_handled() and O(1) for top100(), where n is the size of the topIps we're mainting (in our case, 100).
+The time complexity of this approach is O(nlogn) for each request_handled() and O(nlogn) (could be o(1), but I added a final sort, just in case) for top100(), where n is the size of the topIps we're mainting (in our case, 100).
 
 ### running the code
 in order to run create a file that imports `request_handled, top100, clear, top100WithTally` from `ip_consumer_with_array.js`

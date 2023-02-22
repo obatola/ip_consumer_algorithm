@@ -56,7 +56,7 @@ function request_handled(ipAdress, manageTop100EachRequest = true) {
  */
 function top100(manageTop100EachRequest = true) {
     if (manageTop100EachRequest) {
-        return topIps;
+        return topIps.sort(_sortTallyMap); // final sort just in case
     } else {
         return Object.keys(ipTallyMap).sort(_sortTallyMap).slice(0, capacityOfTopIps);
     }

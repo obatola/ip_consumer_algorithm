@@ -77,58 +77,58 @@ clear()
 in order to play around number of items and view the time elapsed for each solution, run, `node performance_runner.js`
 
 ### Approach 1
-running with 100,000,000 ips and maintaining a list of top 2000 ips
-    time to fire all requests and request top 100: 15441.44ms
-        time to fire all requests: 15441.24ms
-        time elapsed per request: 0.00015441244542121888ms
-        time to getTop100: 0.2ms
+- running with 100,000,000 ips and maintaining a list of top 2000 ips
+    - time to fire all requests and request top 100: 15441.44ms
+        - time to fire all requests: 15441.24ms
+        - time elapsed per request: 0.00015441244542121888ms
+        - time to getTop100: 0.2ms
 
-running with 100,000,000 ips and maintaining a list of top 100 ips
-    time to fire all requests and request top 100: 6006.89ms
-            time to fire all requests: 6006.69ms
-            time elapsed per request: 0.00006006691125392914ms
-            time to getTop100: 0.2ms
+- running with 100,000,000 ips and maintaining a list of top 100 ips
+    - time to fire all requests and request top 100: 6006.89ms
+        - time to fire all requests: 6006.69ms
+        - time elapsed per request: 0.00006006691125392914ms
+        - time to getTop100: 0.2ms
     
-running with 20,000,000 ips and maintaining a list of top 100 ips
-    time to fire all requests and request top 100: 1188.91ms
-                time to fire all requests: 1188.72ms
-                time elapsed per request: 0.00005943616251945496ms
-                time to getTop100: 0.19ms
+- running with 20,000,000 ips and maintaining a list of top 100 ips
+    - time to fire all requests and request top 100: 1188.91ms
+        - time to fire all requests: 1188.72ms
+        - time elapsed per request: 0.00005943616251945496ms
+        - time to getTop100: 0.19ms
                 
 ### Approach 2
-running with 100,000,000 ips and maintaining a list of top 2000 ips
-    time to fire all requests and request top 100: 7626.78ms
-        time to fire all requests: 7625.29ms
-        time elapsed per request: 0.00007625286833286285ms
-        time to getTop100: 1.49ms
+- running with 100,000,000 ips and maintaining a list of top 2000 ips
+    - time to fire all requests and request top 100: 7626.78ms
+        - time to fire all requests: 7625.29ms
+        - time elapsed per request: 0.00007625286833286285ms
+        - time to getTop100: 1.49ms
 
-running with 100,000,000 ips and maintaining a list of top 100 ips
-    time to fire all requests and request top 100: 4970.65ms
-        time to fire all requests: 4970.21ms
-        time elapsed per request: 0.00004970214084148407ms
-        time to getTop100: 0.44ms
+- running with 100,000,000 ips and maintaining a list of top 100 ips
+    - time to fire all requests and request top 100: 4970.65ms
+        - time to fire all requests: 4970.21ms
+        - time elapsed per request: 0.00004970214084148407ms
+        - time to getTop100: 0.44ms
 
-running with 20,000,000 ips and maintaining a list of top 100 ips
-    time to fire all requests and request top 100: 1024.54ms
-        time to fire all requests: 1024.07ms
-        time elapsed per request: 0.00005120337290763855ms
-        time to getTop100: 0.47ms
+- running with 20,000,000 ips and maintaining a list of top 100 ips
+    - time to fire all requests and request top 100: 1024.54ms
+        - time to fire all requests: 1024.07ms
+        - time elapsed per request: 0.00005120337290763855ms
+        - time to getTop100: 0.47ms
 
 ### Approach 3
-running with 100,000,000 ips and maintaining a list of top 2000 ips
-    time to fire all requests and request top 100: 2679.85ms
-        time to fire all requests: 2247.63ms
-        time elapsed per request: 0.00002247628458023071ms
-        time to getTop100: 432.22ms
+- running with 100,000,000 ips and maintaining a list of top 2000 ips
+    - time to fire all requests and request top 100: 2679.85ms
+        - time to fire all requests: 2247.63ms
+        - time elapsed per request: 0.00002247628458023071ms
+        - time to getTop100: 432.22ms
 
-running with 100,000,000 ips and maintaining a list of top 100 ips
-    time to fire all requests and request top 100: 2860.69ms
-        time to fire all requests: 2411.46ms
-        time elapsed per request: 0.00002411459749698639ms
-        time to getTop100: 449.23ms
+- running with 100,000,000 ips and maintaining a list of top 100 ips
+    - time to fire all requests and request top 100: 2860.69ms
+        - time to fire all requests: 2411.46ms
+        - time elapsed per request: 0.00002411459749698639ms
+        - time to getTop100: 449.23ms
     
-running with 20,000,000 ips and maintaining a list of top 100 ips
-    time to fire all requests and request top 100: 914.62ms
-        time to fire all requests: 526.19ms
-        time elapsed per request: 0.000026309583353996278ms
-        time to getTop100: 388.43ms
+- running with 20,000,000 ips and maintaining a list of top 100 ips
+    - time to fire all requests and request top 100: 914.62ms
+        - time to fire all requests: 526.19ms
+        - time elapsed per request: 0.000026309583353996278ms
+        - time to getTop100: 388.43ms
